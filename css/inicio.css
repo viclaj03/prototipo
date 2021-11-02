@@ -1,0 +1,40 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+#page{
+	width: 1450px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+}
+
+#nav-header{
+    background-color: #228bcc80;
+    background-attachment: fixed;
+	background-size: cover;
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+}
+
+#logo{
+    max-width: 6%;
+height: auto;
+padding-bottom: 0px;
+margin-bottom: -40px;
+margin-right: -25px;
+}
+
+#logo-name{
+    display: inline;
+}
+
+ul li {
+    display: inline;
+}

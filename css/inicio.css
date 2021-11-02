@@ -19,7 +19,7 @@
     text-align: center;
 }
 
-h2{
+#header-logo{
     text-align: left;
 }
 
@@ -35,6 +35,24 @@ margin-right: -25px;
     display: inline;
 }
 
-ul li {
+#nav-list{
+	padding-bottom: 26px;
+	margin-top: -14px;
+}
+
+#Login{
+	background-color: rgb(137, 123, 123); /* Green */
+	border: 1px solid gray;
+	color: blue;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 20%;
+}
+
+#nav-list li{
     display: inline;
 }

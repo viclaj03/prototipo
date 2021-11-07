@@ -4,7 +4,7 @@
 }
 
 #page{
-	width: 1500px;
+	width: 1450px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: auto;
@@ -21,7 +21,6 @@
 
 #header-logo{
     text-align: left;
-	font-family: serif;
 }
 
 #logo{
@@ -79,71 +78,17 @@ button:active{
 
 #first-photo{
 	margin: 10px;
-text-align: center;
-background-repeat: no-repeat;
-background-position: center;
+	text-align: center;
+	background-image: url(../img/saul.jpg);
+	background-repeat:no-repeat; 
+background-position: center; 
 background-attachment: fixed;
 background-size: cover;
-padding-left: 39%;
-width: 30%;
+	padding-left: 50%;
+	width: 50%;
 }
 
 #imagen-arriba{
-width: 100%;
-}
-
-#texto-arriba{
-	position: absolute;
-margin-left: -4px;
-padding-right: 14px;
-font-weight: bold;
-color: white;
-background: #90c5e5;
-}
-
-#general{
-	width: 1450px;
-	margin-top: 10px;
-	margin-bottom: 0px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-}
-
-.news-1{
-	width: 35%;
-	float: left;
-	padding-left: 15px;
-	padding-top: 10px;
-
-}
-
-.news-2{
-	width: 35%;
-float: right;
-padding-right: 15px;
-padding-top: 10px;
-	}
-
-
-.imagen-not{
-	width: 100%;
-}
-
-section{
-	display: table;	
-}
-
-
-
-footer
-{
-background-color: rgba(144, 197, 229, 0.84);
-border: double;
-bottom: 0;
-text-align: center;
-padding-top: 15px;
-padding-bottom: 15px;
-text-decoration: none;
-
+width: 30%;
+opacity: 0.5;
 }

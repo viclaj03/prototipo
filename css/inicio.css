@@ -25,12 +25,19 @@
 }
 
 #logo{
-    max-width: 6%;
+    max-width: 12%;
 height: auto;
 padding-bottom: 0px;
-margin-bottom: -40px;
+margin-bottom: -70px;
 margin-right: -25px;
+text-align: left;
 }
+
+#logoInLogin{
+    max-width: 12%;
+
+}
+
 
 #logo-name{
     display: inline;
@@ -141,9 +148,100 @@ footer
 background-color: rgba(144, 197, 229, 0.84);
 border: double;
 bottom: 0;
-text-align: center;
+text-align: left;
 padding-top: 15px;
 padding-bottom: 15px;
 text-decoration: none;
+font-size: 13px;
+}
 
+footer p{
+	display: flex;
+flex-direction: row;
+margin-top: -27px;
+margin-left: 370px;
+}
+
+footer ul {
+	margin-top: -19px;
+	margin-left: 1200px;
+}
+
+footer ul li{
+	display: inline;
+	flex-direction: row;
+}
+
+.social{
+	width: 24px;
+}
+
+#logo_footer{
+	width: 70px;
+}
+
+/*Login*/
+#Form_login{
+	text-align: center;
+	padding: 20px;
+	background-color: #043b74;
+border-radius: 20px;
+}
+
+#section_login{
+	display: inline;
+	padding: 30px;
+	text-align: center;
+}
+
+#article_form{
+	background: #3a5a98;
+margin-top: 4%;
+padding: 20px;
+margin-left: 40%;
+margin-right: 30%;
+border-radius: 20px;
+
+}
+
+form{
+	text-align: right;
+	padding: 20px;
+}
+
+#helper{
+	background-color: gray;
+border-radius: 20px;
+text-align: left;
+margin-bottom: -20px;
+margin-left: -20px;
+margin-right: -20px;
+}
+
+#helper a h3{
+	padding-top: 20px;
+	width: 20%;
+}
+
+#helper a {
+	display: block ruby;
+}
+
+#helper a img{
+	padding-top: 20px;
+	width: 10%;
+}
+
+.tipe_login{
+	display: inline;
+}
+
+.tipe_login p{
+	background-color: blue;
+	margin: -20px;
+}
+
+#helper_Phone{
+	margin-left: 210px;
+	margin-top: -10px;
 }
